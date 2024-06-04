@@ -7,9 +7,5 @@ for parameter in $PARAMETERS; do
 done
 
 
-"catalogue.prod.MONGO_URL,MONGO_URL catalogue.prod.DOCUMENTDB,DOCUMENTDB"
-
-ssm_parameter=catalogue.prod.MONGO_URL
-app_parameter=MONGO_URL
-MONGO_URL=
+cat /common/parameters
 
